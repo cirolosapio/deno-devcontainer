@@ -1,0 +1,8 @@
+services:
+  app:
+    image: alpine
+    # image: denoland/deno:alpine
+    command: top
+    volumes:
+      - ..:/app:cached
+      # - ~/.zsh_history:/home/vscode/.zsh_history:rw
