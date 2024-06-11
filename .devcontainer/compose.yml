@@ -1,7 +1,7 @@
 services:
   app:
-    image: alpine
-    # image: denoland/deno:alpine
+    # image: alpine
+    image: denoland/deno:alpine
     command: top
     volumes:
       - ..:/app:cached
