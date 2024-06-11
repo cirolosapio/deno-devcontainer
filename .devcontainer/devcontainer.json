@@ -4,6 +4,7 @@
   "service": "app",
   // "containerUser": "vscode",
   "features": {
+    "./lib": {},
     // "ghcr.io/cirolosapio/devcontainers-features/alpine-user": {},
     // "ghcr.io/cirolosapio/devcontainers-features/alpine-starship": {},
     // "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh": {},
